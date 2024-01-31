@@ -1,0 +1,102 @@
+header {
+        /* Add this CSS to your stylesheet or in a <style> tag in the <head> section of your HTML */
+
+        
+
+/* Style for the header */
+        header {
+                background-color: #ffffff; /* Set the background color of the header */
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow to the header if desired */
+                position: absolute;
+                /* Make the header fixed at the top of the viewport */
+                 /* Ensure the header spans the entire width of the viewport */
+                z-index: 100;
+                
+                
+                 /* Adjust the z-index to control stacking order if needed */
+        }
+    
+    /* Style for the logo */
+       
+    
+    /* Style for the navigation menu (adjust as needed) */
+        nav {
+        /* Add your navigation menu styles here */
+        margin: 1rem;
+        }
+    
+    /* Style for the container within the header (adjust as needed) */
+        .container {
+                max-width: 1200px; /* Set a maximum width for the header container */
+                margin: 0 auto; /* Center the container horizontally */
+                padding: 0 20px; /* Add padding to the container if desired */
+
+        }
+    
+    /* Adjust the styles above to match your design preferences */
+}    
+
+
+.logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+
+.nav-logo{
+        height: 82px;
+        width: 82px;
+}
+
+.nav-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+}
+
+header .container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 25px 0;
+}
+
+header .container .logo {
+        /* padding: 15px 0; */
+        height: 75px;
+}
+
+header .container /.logo img {
+        height: 100%;
+}
+.burgerMenu{
+        font-size: 16px;
+        color: #fff;
+        margin-left: auto;
+        display: none;
+}
+
+header nav ul {
+        list-style-type: none;
+}
+
+header nav ul li {
+        display: inline-block;
+}
+
+header nav ul li a {
+        display: inline-block;
+        height: 75px;
+        line-height: 75px;
+        padding: 0 15px;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 16px;
+        color: #fff;
+        transition: 0.3s;
+}
+header nav ul li a:hover{
+        background-color: var(--themeGreen);
+}
